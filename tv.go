@@ -44,6 +44,8 @@ type TV struct {
 		AirDate      string `json:"air_date"`
 		EpisodeCount int    `json:"episode_count"`
 		ID           int
+		Name         string `json:"name"`
+		Overview     string `json:"overview"`
 		PosterPath   string `json:"poster_path"`
 		SeasonNumber int    `json:"season_number"`
 	}
